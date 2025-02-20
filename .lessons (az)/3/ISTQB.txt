@@ -1,4 +1,7 @@
-ISTQB nədir?
+ISTQB nədir?  
+
+(https://www.rstqb.org/ru/rstqb-istqb.html)         - на русском
+(https://www.rstqb.org/ru/istqb-downloads.html)     - на русском
 
 ISTQB® (International Software Testing Qualification Board) – proqram təminatının test edilməsi sahəsində beynəlxalq 
 sertifikatlaşdırma təşkilatıdır. 2002-ci ildə Belçikada qeydə alınmış qeyri-kommersiya təşkilatıdır və proqram testçiləri 
@@ -54,7 +57,6 @@ ISTQB sertifikasiyası proqram test mühəndisləri üçün web, mobil, API, tə
 
 ISTQB dünyada test mühəndisləri üçün ən nüfuzlu sertifikatlardan biridir. Əgər QA mühəndisi olmaq və ya bu sahədə inkişaf etmək istəyirsinizsə, 
 ISTQB Foundation Level sertifikatından başlamaq məsləhətdir. 🚀
-
 
 
 --------------------------------------------------------------------------------------------------------------------------------
