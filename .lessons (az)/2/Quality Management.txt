@@ -1,0 +1,40 @@
+Quality Management nədir?
+
+Quality Management (Keyfiyyət İdarəetməsi) – məhsulun və ya xidmətin müştəri tələblərinə və beynəlxalq standartlara 
+uyğun olmasını təmin edən proseslərin idarə olunmasıdır. Bu, planlaşdırma, nəzarət, təminat və təkmilləşdirmə kimi 
+mərhələləri əhatə edir.
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+Quality Management iki əsas hissəyə bölünür:
+  1. Quality Assurance (QA) – Keyfiyyətin Təminatı
+  2. Quality Control (QC) – Keyfiyyətə Nəzarət
+
+--------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+
+Sadə nümunə ilə fərq:
+🔹 QA: Bir avtomobil istehsal edən şirkət keyfiyyətin təminatı üçün düzgün montaj proseslərini, avadanlıqların düzgün işləməsini 
+və işçilərin standartlara uyğun işləməsini təmin edir.
+
+🔹 QC: Zavoddan çıxmazdan əvvəl hər avtomobilin test edilməsi, sükanın, əyləc sisteminin və digər hissələrin yoxlanılması keyfiyyətə 
+nəzarətə aiddir.
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+
+1️⃣ QA – Düzgün prosedurların tətbiq olunmasını təmin edir ki, səhvlər ümumiyyətlə baş verməsin.
+2️⃣ QC – Yekun məhsulu yoxlayır və əgər defekt aşkar edilərsə, onun aradan qaldırılması üçün tədbirlər görür.
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+
+https://drive.google.com/file/d/1j9GpoIbwMAusjtbqWnW_VQGacNWp2nMW/view - На русском

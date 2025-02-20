@@ -1,0 +1,61 @@
+ISTQB nədir?
+
+ISTQB® (International Software Testing Qualification Board) – proqram təminatının test edilməsi sahəsində beynəlxalq 
+sertifikatlaşdırma təşkilatıdır. 2002-ci ildə Belçikada qeydə alınmış qeyri-kommersiya təşkilatıdır və proqram testçiləri 
+üçün sertifikatlaşdırma standartlarını müəyyənləşdirir.
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+ISTQB nə üçün vacibdir?
+
+ISTQB dünyada ən geniş yayılmış proqram test mühəndisliyi sertifikatıdır və beynəlxalq səviyyədə tanınır. Bu sertifikat:
+    ✔ Test mühəndislərinin bilik və bacarıqlarını təsdiqləyir
+    ✔ Test proseslərini standartlaşdırır
+    ✔ İş imkanlarını genişləndirir və əmək bazarında üstünlük yaradır
+    ✔ Daha yaxşı keyfiyyət təminatı üçün metod və yanaşmaları öyrədir
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+
+ISTQB sertifikatları hansılardır?
+ISTQB sertifikasiyası mərhələli bir sistemə malikdir:
+
+1️⃣ Foundation Level (Əsas Səviyyə)
+    - Yeni başlayanlar üçün nəzərdə tutulub
+    - Test anlayışları, metodologiyalar və prosesləri əhatə edir
+    - ISTQB Certified Tester – Foundation Level (CTFL) sertifikatı verilir
+    
+2️⃣ Advanced Level (İrəli Səviyyə)
+    - Daha dərin biliklər tələb edir
+    - Test Manager, Test Analyst, Technical Test Analyst kimi alt ixtisaslara bölünür
+
+3️⃣ Expert Level (Ekspert Səviyyəsi)
+    - Peşəkar test mütəxəssisləri üçün nəzərdə tutulub
+    - Keyfiyyət idarəetməsi, test strategiyaları və avtomatlaşdırma sahələrini əhatə edir
+
+--------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+
+ISTQB sertifikatı hansı sahələrdə istifadə edilir?
+ISTQB sertifikasiyası proqram test mühəndisləri üçün web, mobil, API, təhlükəsizlik, avtomatlaşdırılmış və performans testləri kimi sahələrdə istifadə olunur.
+
+Ən çox tələbat olan sahələr:
+✅ Avtomatlaşdırılmış testlər (Selenium, Cypress, Appium)
+✅ Performans və yük testləri (JMeter, LoadRunner)
+✅ Təhlükəsizlik testləri (Penetration Testing, OWASP)
+
+--------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+ISTQB dünyada test mühəndisləri üçün ən nüfuzlu sertifikatlardan biridir. Əgər QA mühəndisi olmaq və ya bu sahədə inkişaf etmək istəyirsinizsə, 
+ISTQB Foundation Level sertifikatından başlamaq məsləhətdir. 🚀
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------

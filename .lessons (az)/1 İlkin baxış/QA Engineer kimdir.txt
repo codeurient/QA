@@ -1,0 +1,60 @@
+QA Engineer kimdir?
+
+QA Engineer (Quality Assurance Engineer) – proqram təminatının keyfiyyətini təmin edən mütəxəssisdir. O, proqramın 
+funksionallığını, istifadəyə yararlılığını, təhlükəsizliyini və performansını yoxlayır. QA mühəndisləri test proseslərini 
+planlaşdırır, avtomatlaşdırılmış və əl ilə testlər aparır və mümkün səhvləri müəyyən edərək onların aradan qaldırılmasına 
+kömək edirlər.
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+QA Engineer ixtisası nədir və nə üçün istifadə edilir?
+QA mühəndisliyi, proqram təminatının xətasız, sabit və istifadəçilər üçün rahat işləməsini təmin edən ixtisasdır. 
+Onların əsas məqsədi proqramdakı xətaları (bug-ları) aşkar etmək və buraxılmadan əvvəl düzəldilməsini təmin etməkdir.
+Bu ixtisas proqram təminatı inkişafı sahəsində keyfiyyətin təmin olunması (Quality Assurance - QA) adlanan mərhələyə aiddir.
+
+QA mühəndislərinin əsas vəzifələri:
+    - Test ssenarilərinin və test planlarının hazırlanması
+    - Əl ilə və avtomatlaşdırılmış testlərin icrası
+    - Səhvlərin və uyğunsuzluqların tapılması və hesabat edilməsi
+    - Performans və təhlükəsizlik testlərinin aparılması
+    - Müxtəlif cihaz və platformalarda proqramın işləməsini yoxlamaq
+    - Test nəticələrinin sənədləşdirilməsi və komandaya geri bildirim vermək
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+
+QA mühəndisləri müxtəlif sahələrdə fəaliyyət göstərə bilərlər. Əsas istiqamətlər bunlardır:
+    - Web Testing (Veb-testinq) – Veb saytların və veb tətbiqlərin işləməsini yoxlamaq üçün istifadə olunur.
+    - Mobile Testing (Mobil-testinq) – Android və iOS tətbiqlərinin test edilməsi.
+    - Desktop Testing (Masaüstü testinq) – Windows, macOS və Linux üçün proqramların yoxlanılması.
+    - Game Testing (Oyun testinqi) – Kompüter, konsol və mobil oyunların test edilməsi.
+    - Automation Testing (Avtomatlaşdırılmış testlər) – Test proseslərinin Selenium, Cypress, Appium kimi alətlərlə avtomatlaşdırılması.
+    - Performance Testing (Performans testləri) – Proqramın yüklənmə və cavabvermə sürətinin test edilməsi.
+    - Security Testing (Təhlükəsizlik testləri) – Proqramın təhlükəsizlik zəifliklərinin müəyyən edilməsi və qorunma tədbirlərinin yoxlanılması.
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+Hal-hazırda QA mühəndisliyi IT sahəsində ən çox tələb olunan peşələrdən biridir. Xüsusilə aşağıdakı sahələrdə yüksək tələbat var:
+    - Automation Testing – Testlərin avtomatlaşdırılması proqram şirkətləri üçün daha sürətli və effektivdir. Selenium, Cypress, 
+      Playwright və Appium kimi alətlər bu sahədə populyardır.
+    - Mobile Testing – Mobil tətbiqlərin populyarlığının artması ilə Android və iOS platformalarında test mühəndislərinə böyük tələbat var.
+    - Performance & Security Testing – Böyük və mürəkkəb sistemlər üçün performans və təhlükəsizlik testləri olduqca vacibdir. JMeter, 
+      LoadRunner və Burp Suite kimi alətlər bu sahədə istifadə olunur.
+
+Nəticə: Əgər QA mühəndisi olmaq istəyirsinizsə, test metodologiyalarını öyrənmək, manual testlərdən başlayaraq avtomatlaşdırılmış testlərə 
+keçmək və bazarın tələblərinə uyğun ixtisaslaşmaq vacibdir. 🚀
