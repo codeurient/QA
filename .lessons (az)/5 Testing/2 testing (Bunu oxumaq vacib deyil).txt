@@ -1,0 +1,64 @@
+Testləndirmənin (Testing) həyat dövrü
+Proqram təminatının test edilməsi müəyyən mərhələlər üzrə həyata keçirilən prosesdir. Bu mərhələlər proqramın keyfiyyətini 
+artırmaq və mümkün səhvləri tapmaq üçün sistemli yanaşma təmin edir.
+
+1️⃣ Ümumi planlaşdırma və tələblərin analizi
+🔹 Məqsəd: Proqram təminatının tələblərini başa düşmək və test strategiyasını formalaşdırmaq.
+🔹 Necə edilir?
+✅ Biznes və funksional tələblər araşdırılır
+✅ Müştəri və ya məhsul sahibi ilə müzakirələr aparılır
+✅ Hansı test metodlarının istifadə olunacağı müəyyən edilir
+
+2️⃣ Qəbul kriteriyalarının dəqiqləşdirilməsi
+🔹 Məqsəd: Testlərin uğurla tamamlandığını müəyyən edən kriteriyaları müəyyənləşdirmək.
+🔹 Necə edilir?
+✅ Sistem hansı şərtlər daxilində qəbul ediləcək?
+✅ Müştərinin və ya sifarişçinin gözləntilərinə uyğun olub-olmadığı yoxlanılır
+✅ Testlərin uğurlu və ya uğursuz hesab edilməsi üçün kriteriyalar təyin edilir
+
+3️⃣ Test strategiyasının dəqiqləşdirilməsi
+🔹 Məqsəd: Test prosesinin necə icra ediləcəyini müəyyənləşdirmək.
+🔹 Necə edilir?
+✅ Manuel yoxsa avtomatlaşdırılmış testlər istifadə ediləcək?
+✅ Hansı test alətləri (Selenium, JMeter, Appium və s.) tətbiq ediləcək?
+✅ Test mühitləri (operasiya sistemləri, brauzerlər və cihazlar) seçilir
+
+4️⃣ Test-keslərin hazırlanması
+🔹 Məqsəd: Test ssenarilərini yaratmaq və onların tətbiqini planlaşdırmaq.
+🔹 Necə edilir?
+✅ Müxtəlif test halları (test-case) hazırlanır
+✅ Gözlənilən nəticələr və giriş-çıxış verilənləri müəyyən edilir
+✅ Funksional, qeyri-funksional və təhlükəsizlik testləri üçün xüsusi testlər yaradılır
+
+5️⃣ Test-keslərin icrası
+🔹 Məqsəd: Hazırlanmış test-keslərin real sistemdə icra edilməsi.
+🔹 Necə edilir?
+✅ Test ssenariləri icra olunur və nəticələr qeyd edilir
+✅ Manual və ya avtomatik testlər işə salınır
+✅ Əgər sistem düzgün işləyirsə, uğurlu test nəticələri alınır
+
+6️⃣ Tapılan defektlərin qeydiyyatı
+🔹 Məqsəd: Test prosesində aşkar edilən səhvlərin və defektlərin qeyd edilməsi.
+🔹 Necə edilir?
+✅ Bütün tapılan səhvlər bug-tracking sistemlərinə (JIRA, Trello, Bugzilla) daxil edilir
+✅ Hər bir defektin təsviri, təkrarlama addımları və gözlənilən nəticələr qeyd edilir
+✅ Defektin prioriteti və kritikliyi müəyyən edilir (məsələn, High, Medium, Low)
+
+7️⃣ Test nəticələrinin analizi
+🔹 Məqsəd: Test nəticələrinin qiymətləndirilməsi və sistemin keyfiyyətinin dəyərləndirilməsi.
+🔹 Necə edilir?
+✅ Səhvlərin təhlili və onların təsir dərəcəsi müəyyən edilir
+✅ Sistem funksional olaraq düzgün işləyirmi?
+✅ Hansı testlər uğurlu, hansı testlər uğursuz olub?
+
+8️⃣ Hesabat və yekun nəticələr
+🔹 Məqsəd: Test prosesi ilə bağlı yekun hesabat hazırlamaq və qərar vermək.
+🔹 Necə edilir?
+✅ Test hesabatları hazırlanır və rəhbərliyə təqdim edilir
+✅ Defektlərin statistikası və ümumi keyfiyyət göstəriciləri göstərilir
+✅ Sistem buraxılışa (release) hazırdır, yoxsa əlavə düzəlişlər tələb olunur?
+
+Nəticə
+Testləndirmənin həyat dövrü məhsulun keyfiyyətini artırmaq, səhvləri minimuma endirmək və müştəri məmnuniyyətini 
+təmin etmək üçün əsas mərhələlərdən ibarətdir. Bu mərhələlərin düzgün icrası proqramın sabitliyini, təhlükəsizliyini 
+və istifadəçi təcrübəsini yaxşılaşdırmağa kömək edir. 🚀

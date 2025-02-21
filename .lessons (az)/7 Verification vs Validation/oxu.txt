@@ -1,0 +1,73 @@
+Vərifikasiya və Validasiyanın izahı
+
+Proqram təminatının keyfiyyətini yoxlamaq üçün iki əsas anlayış var:
+✅ Vərifikasiya (Verification)
+✅ Validasiya (Validation)
+
+Bu anlayışlar bir-birinə oxşasa da, mahiyyətcə fərqli məqsədlərə xidmət edir.
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+🛠️ Vərifikasiya (Verification) – “Düzgün məhsulu hazırlayırıqmı?”
+🔹 Nədir?
+Vərifikasiya məhsulun texniki tələblərə uyğun olub-olmadığını yoxlayır. Bu prosesdə sistem və ya proqram kodunun düzgün yazılıb-yazılmadığı araşdırılır.
+
+🔹 Necə edilir?
+✅ Dizayn sənədləri və spesifikasiyalar yoxlanılır
+✅ Kod analiz edilir
+✅ Testlər aparılmadan əvvəl proqramın düzgün inkişaf edib-etmədiyi araşdırılır
+✅ Manual yoxlamalar və ya avtomatik kod analizləri aparılır
+
+🔹 Misal:
+
+Proqram interfeysində bütün lazımi düymələrin və giriş sahələrinin (input fields) olub-olmaması yoxlanılır.
+Dizaynerin yaratdığı maket ilə hazır interfeys arasında fərq varmı?
+Bu halda biz proqramın düzgün hazırlanıb-hazırlanmadığını yoxlayırıq, yəni tələblərə cavab verirmi?
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+✅ Validasiyası (Validation) – “Düzgün məhsulu hazırlamışıqmı?”
+🔹 Nədir?
+Validasiya hazırlanan məhsulun istifadəçinin real ehtiyaclarını qarşılayıb-qarşılamadığını yoxlayır. Burada əsas sual “İstifadəçi bu funksiyanı həqiqətən lazımlı hesab edir?”
+
+🔹 Necə edilir?
+✅ Funksiyaların istifadəçinin gözləntilərinə uyğun olub-olmadığı test edilir
+✅ Real istifadəçilərlə sınaq testləri aparılır
+✅ İstifadəçinin proqramı rahat başa düşüb-düşmədiyi yoxlanılır
+
+🔹 Misal:
+
+Əgər bir istifadəçi giriş sahəsinə yanlış məlumat (məsələn, hərflər əvəzinə rəqəmlər) daxil etsə, sistem düzgün reaksiya verirmi?
+İstifadəçilər bu düymədən həqiqətən istifadə edirlərmi, yoxsa onlara lazım deyil?
+Əgər tətbiq istifadəçini çaşdırırsa, deməli, validasiya uğursuz olub.
+Bu halda məhsulun istifadəçi üçün həqiqətən faydalı olub-olmadığını yoxlayırıq.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+📢 Yekun nəticə
+✅ Vərifikasiya – məhsulun tələblərə uyğun olub-olmadığını yoxlayır.
+✅ Validasiya – məhsulun istifadəçiyə uyğun olub-olmadığını yoxlayır.
+
+💡 Əgər vərifikasiya uğursuz olarsa, deməli, texniki problemlər var və kod yenidən baxılmalıdır.
+💡 Əgər validasiya uğursuz olarsa, deməli, istifadəçilərin ehtiyacları düzgün öyrənilməyib və məhsulun funksionallığı yenidən düşünülməlidir.
+
+Sadə dildə:
+🔹 Vərifikasiya – məhsul qaydalara uyğun hazırlanıb?
+🔹 Validasiyası – məhsul insanlara həqiqətən lazımdır?
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------

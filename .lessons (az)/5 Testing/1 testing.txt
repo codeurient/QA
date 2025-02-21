@@ -1,0 +1,24 @@
+Testing nədir?
+
+Testing (Test etmə, Sınaq) – proqram təminatının və ya sistemin səhvlərini aşkar etmək, keyfiyyətini yoxlamaq və onun düzgün 
+işlədiyini təsdiqləmək üçün icra edilən prosesdir.
+
+Testin əsas məqsədi məhsulun və ya proqramın gözlənilən tələblərə uyğun olub-olmadığını müəyyən etmək və mümkün defektləri 
+(bug-ları) tapmaqdır.
+
+Testing nə üçün vacibdir?
+    ✅ Səhvləri erkən aşkar edir – Daha sonra düzəltmək bahalı olur
+    ✅ Müştəri məmnuniyyətini artırır – Keyfiyyətli məhsul təqdim etməyə kömək edir
+    ✅ Biznes itkilərinin qarşısını alır – Proqram səhvləri maliyyə və reputasiya itkisinə səbəb ola bilər
+    ✅ Təhlükəsizliyi təmin edir – Xüsusilə maliyyə və səhiyyə sahələrində kritikdir
+    ✅ Məhsulun sabitliyini artırır – Proqramın müxtəlif şəraitlərdə dayanıqlı işləməsini yoxlayır
+
+Testing hansı növlərə bölünür?
+    1️⃣ Manual Testing (Əl ilə test etmə)
+        Testlərin insan tərəfindən əl ilə icra edilməsi
+        Testçinin məhsulu müxtəlif ssenarilərlə yoxlaması
+        Kiçik və dinamik layihələr üçün uyğundur
+
+    2️⃣ Automated Testing (Avtomatlaşdırılmış testlər)
+        Testlərin xüsusi proqramlar (Selenium, Cypress, Appium) vasitəsilə avtomatik icra edilməsi
+        Davamlı yoxlamalar və təkrarlanan testlər üçün daha effektivdir
