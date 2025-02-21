@@ -1,0 +1,116 @@
+📌 Test Prinsipləri – Sadə və Aydın İzah
+Proqram təminatının test olunması üçün müəyyən prinsiplər var. Bunlar proqramın daha keyfiyyətli və etibarlı olmasına kömək edir.
+
+Aşağıda 7 əsas prinsipin sadə və başa düşülən izahını verəcəyəm.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+1️⃣ Testlər səhvlərin olmadığını deyil, varlığını göstərir
+Test edərkən biz yalnız səhvləri aşkar edirik, amma sistem tamamilə səhvsizdir deyə bilmərik. Yəni, testlər səhvləri tapmaq üçün var, 
+amma onların yoxluğunu sübut etmir.
+
+Misal:
+🚗 Maşını yoxlayırsan və problem tapmırsan. Bu o demək deyil ki, maşın 100% idealdır! Ola bilər ki, problem var, sadəcə sən onu hələ tapmamısan.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+2️⃣ Bütün mümkün testləri etmək mümkün deyil
+Hər bir düyməni, səhifəni, funksiyanı bütün mümkün ssenarilərlə yoxlamaq real deyil. Bu çox vaxt və resurs tələb edir. Ona görə də ən vacib testlərə 
+fokuslanmaq lazımdır.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3️⃣ Erkən testlər vaxt və pul qənaət edir
+Əgər səhvi ilk mərhələdə tapsaq, onu düzəltmək daha asan və ucuz olur. Gec tapılan səhvlər böyük problemlərə səbəb ola bilər.
+
+Misal:
+🏗 Tikinti zamanı problemi layihədə tapsaq, onu kağız üzərində düzəltmək asandır. Amma ev tam tikiləndən sonra səhv tapsaq, onu düzəltmək baha başa gələcək.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+4️⃣ Ən çox səhvlər az sayda yerdə cəmlənir (Pareto prinsipi)
+Test zamanı ən çox səhvlər adətən proqramın müəyyən bir hissəsində tapılır. Yəni, problemlər bərabər paylanmır, bəzi modullarda daha çox səhv olur.
+
+Misal:
+📊 Bir veb saytın 100 səhifəsi var, amma səhvlərin 80%-i cəmi 10 səhifədə tapılır. Bu, Pareto prinsipidir (80/20 qaydası).
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+5️⃣ Testlər kontekstdən asılıdır
+Hər bir proqram fərqlidir, ona görə də test üsulları hansı proqramın yoxlandığından asılıdır. Məsələn, mobil tətbiq üçün testlər veb sayt testlərindən fərqlidir.
+
+Misal:
+📱 Mobil tətbiqdə ekran toxunuşları və batareya (Düzgün yazılmayan kod çox enerji aparır) vacibdir.
+💻 Veb sayt üçün isə səhifə yüklənmə sürəti və brauzer uyğunluğu əsasdır.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+6️⃣ "Səhvlər yoxdur" demək düzgün proqram demək deyil
+Əgər bütün testlər uğurla keçirsə və səhv tapılmasa belə, bu proqramın istifadəçilər üçün faydalı olduğunu göstərmir. Proqram istifadəçilərin 
+ehtiyaclarını qarşılamaya bilər.
+
+Misal:
+📦 Bir restoran sifariş sistemi hazırladıq və heç bir texniki səhv yoxdur. Amma müştərilər üçün çox çətindirsə və onlar istifadə etmirsə, 
+bu proqram uğursuz sayılır.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+7️⃣ Eyni testləri təkrarlamaq bir müddət sonra effektiv olmur (Pestisid paradoksu)
+Əgər eyni testləri dəfələrlə etsək, bir müddət sonra yeni səhvləri tapmaq çətinləşir. Ona görə də test metodlarını dəyişmək lazımdır.
+
+📌 Bu problemin həlli üçün nə etməli?
+✅ Test ssenarilərini yeniləmək
+✅ Fərqli test üsulları tətbiq etmək
+✅ Yeni test məlumatları ilə yoxlamaq
+✅ Başqa test mühəndislərinin sənədlərini nəzərdən keçirmək
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+📢 İş dünyasında tətbiqi və faydalı məsləhətlər
+✔ Bu prinsipləri bilmək işdə çox vaxt avtomatik olaraq tətbiq edilir, amma müsahibə üçün öyrənmək vacibdir.
+✔ Test etməyə başlamazdan əvvəl tələbləri yaxşı analiz edin.
+✔ Səhvlər həmişə var olacaq, ona görə də panikaya düşməyin.
+✔ Test üçün prioritetləri düzgün seçin, çünki hər şeyi test etmək mümkün deyil.
+✔ Əsas problemlərin harada toplandığını təhlil edərək əsas testləri ora yönləndirin.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+📌 Yekun Nəticə
+Bu 7 prinsip testlərin daha effektiv aparılmasına kömək edir. Əsas ideya hər şeyi yoxlamağın mümkün olmadığını, amma düzgün 
+strategiya ilə ən vacib səhvləri tapmağın mümkün olduğunu başa düşməkdir.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
