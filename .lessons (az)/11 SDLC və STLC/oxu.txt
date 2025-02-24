@@ -1,0 +1,189 @@
+SDLC (Software Development Lifecycle) – Proqram təminatının hazırlanmasının həyat dövrü
+STLC (Software Testing Lifecycle) – Proqram təminatının test olunmasının həyat dövrü
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1) SDLC – proqram təminatının sıfırdan hazırlanması və istifadə üçün tam hazır olması prosesidir. Bu proses proqramın ideyası yarandıqdan 
+sonra başlayır və o, istifadəyə yararsız olana qədər davam edir.
+
+
+Bu dövr aşağıdakı 7 mərhələdən ibarətdir:
+    a) İdeya və tələblərin toplanması – Proqramın nə üçün hazırlanacağı, hansı problemləri həll edəcəyi müəyyən olunur.
+    b) Analiz və planlaşdırma – Layihənin necə icra ediləcəyi planlaşdırılır.
+    c) Dizayn – Proqramın ümumi quruluşu və arxitekturası yaradılır. Buraya UI/UX dizayn da daxildir.
+    d) Kod yazma (İnkişaf – Development) – Proqramçılar proqramı kodlaşdırırlar.
+    e) Test etmə (Testing) – Hazırlanan proqramın səhvsiz işlədiyinə əmin olmaq üçün yoxlanılır.
+    f) İstifadəyə buraxılma (Deployment) – Proqram real istifadəçilər üçün istifadəyə verilir.
+    g) İstismar və dəstək (Maintenance & Support) – Proqram işlədikcə ortaya çıxan problemlər aradan qaldırılır və yenilənmələr edilir.
+
+
+Bəzən bu mərhələlər paralel olaraq aparılır və ya iterativ (təkrarlanan) üsulla həyata keçirilir. Yəni, proqram birdəfəlik 
+hazırlanıb tam bitmir, zamanla yenilənir və təkmilləşdirilir.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2) STLC – proqramın test olunması və keyfiyyətinin yoxlanılması prosesidir. Yəni, SDLC-nin test mərhələsinin daha ətraflı izah edildiyi bir modeldir. 
+Burada proqramın səhvləri tapılır və onların düzəldilməsinə fokuslanılır.
+
+Bunu belə düşün:
+    SDLC – binanın tikilməsi prosesidir.
+    STLC – binanın yoxlanılması və keyfiyyətinin qiymətləndirilməsi prosesidir.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+3) SDLC-nin əsas mərhələləri (proqram təminatının hazırlanma prosesinin əsas addımları)
+
+a) Tələblərin toplanması və analizi (Requirement Gathering and Analysis)
+
+    - Burada proqramın hazırlanması üçün lazım olan bütün məlumatlar müştəridən alınır.
+    - Müştərinin istədiyi funksiyalar, proqramın məqsədi və kimlər tərəfindən istifadə ediləcəyi dəqiqləşdirilir.
+    - Əgər proqram pul köçürmələri ilə bağlıdırsa, hansı valyutalarla işləyəcəyi, hansı növ əməliyyatların yerinə yetiriləcəyi kimi detallar müəyyən edilir.
+    - Bu mərhələnin sonunda SRS (Software Requirement Specification) adlı sənəd hazırlanır. Bu sənəd proqramçılar və müştəri üçün yol xəritəsi rolunu oynayır.
+
+b) Dizayn (Design)
+
+    - Yuxarıdakı tələblər (SRS sənədində yazılanlar) nəzərə alınaraq proqramın necə qurulacağı planlaşdırılır.
+    - Burada proqramın arxitekturası (struktur sxemi) yaradılır və gələcək kodlaşdırma üçün əsas qoyulur.
+
+c) İnkişaf / Kodlaşdırma (Implementation or Coding)
+
+    - Proqramçılar dizayn sənədinə əsasən kod yazmağa başlayırlar.
+    - Proqramın bütün funksional hissələri burada yaradılır.
+    - Yəni, bu mərhələdə proqramın əsas işlək hissəsi formalaşır.
+
+
+d) Test etmə (Testing)
+
+    - Proqram tam hazır olduqdan sonra test edilir.
+    - Burada proqramın səhvləri tapılır və düzəldilir.
+    - Testçilər proqramın müştərinin tələblərinə tam uyğun olub-olmadığını yoxlayırlar.
+    - Proqramın stabil işlədiyindən əmin olmaq üçün bir neçə dəfə təkrar test aparılır.
+
+e) İstifadəyə vermə (Deployment)
+    - Proqram test edildikdən sonra onu müştəriyə təqdim etmək lazımdır.
+    - Bəzən proqramı birbaşa müştərinin sisteminə (istehsalat mühitinə) yükləyirlər, bəzən isə əvvəlcə UAT (User Acceptance Testing - İstifadəçi Qəbul Testi) aparılır.
+
+    UAT nədir?
+    - Proqramın bir nüsxəsi müştəri üçün ayrıca sınaq mühitində qurulur.
+    - Müştəri proqramın funksiyalarını yoxlayır və əgər hər şey qaydasındadırsa, proqramın tam istifadəyə verilməsinə razılıq verir.
+
+f) Dəstək və Baxım (Maintenance)
+Proqram istifadəyə verildikdən sonra da onun üzərində iş davam edir. Burada 3 əsas məsələ var:
+    I) Xətaların düzəldilməsi (Bug Fixes)
+        - Əgər proqramda sonradan problemlər və ya xətalar aşkar edilərsə, onlar düzəldilir.
+
+    II) Yeniləmələr (Updates)
+        - Müştərinin ehtiyaclarına uyğun yeni funksiyalar əlavə edilə bilər.
+        - Sistem yeni texnologiyalara uyğunlaşdırıla bilər.
+
+    III) Təkmilləşdirmələr (Improvements)
+        - Proqramın daha sürətli və daha rahat işləməsi üçün əlavə düzəlişlər və optimizasiyalar edilə bilər.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+4) SDLC-də əlavə mərhələlər. Bəzi mənbələrdə SDLC-nin əlavə mərhələləri də qeyd olunur:
+
+    I) İdeya və Planlaşdırma
+
+        - Bu, "Tələblərin Analizi"ndən əvvəl gələn mərhələdir.
+        - Burada proqramın hansı problemi həll edəcəyi müəyyən edilir.
+        - Başqa sözlə, "Nəyə görə bu proqram hazırlanır?" sualına cavab verilir.
+
+    II) İstifadəyə vermə (Və ya Ekspluatasiya - Deployment)
+        - Bu, proqramın müştəriyə təqdim edilib istifadəyə buraxıldığı mərhələdir.
+
+    III) İstifadədən çıxarma (Decommissioning)
+
+        - Proqram köhnəldikdə və ya artıq lazımsız olduqda, onun istifadədən çıxarılması lazımdır.
+        - Buraya aşağıdakı proseslər daxildir:
+            - Məlumatların saxlanması (lazım olan məlumatların qorunması).
+            - Məlumatların silinməsi (gizlilik və təhlükəsizlik məqsədilə).
+            - Proqram və avadanlığın ləğvi və ya dəyişdirilməsi.
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+5) STLC – proqramın səhvlərdən təmizlənməsi və düzgün işlədiyini yoxlamaq üçün bir prosesdir.
+
+STLC (Software Testing Lifecycle – Proqramın Test Dövrü) də SDLC-yə bənzəyən mərhələlərdən ibarətdir. Bütün bu mərhələlər 
+bir-biri ilə bağlıdır və ardıcıl şəkildə həyata keçirilir.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+6) STLC (Software Testing Lifecycle – Proqramın Test Dövrü) də SDLC-yə bənzəyən mərhələlərdən ibarətdir. 
+Bütün bu mərhələlər bir-biri ilə bağlıdır və ardıcıl şəkildə həyata keçirilir.
+
+    a) Tələblərin Analizi (Requirement Analysis)
+        - Bu, ən vacib mərhələlərdən biridir, çünki məhz burada layihənin səhvləri minimal xərclə düzəldilə bilər.
+        - Bu mərhələdə testin hansı üsullarla aparılacağı və avtomatlaşdırılmış testin lazım olub-olmaması müəyyən edilir.
+        - Layihənin test edilməsi üçün nə qədər resurs (işçi, vaxt, alətlər və s.) lazım olduğu təxmin edilir.
+        - Testin başlama və bitmə şərtləri də bu mərhələdə müəyyən olunur.
+
+    b) Testin Planlaşdırılması (Test Planning)
+        - Bu mərhələdə test prosesi üçün aydın bir plan hazırlanır.
+        - Burada aşağıdakılar müəyyən edilir:
+            - Testi kimlər edəcək və onların rolları nədir?
+            - Hansı test alətləri və mühitlərdən istifadə olunacaq?
+            - Testin keyfiyyətini necə ölçmək olar (metriklər, hesabatlar və s.)?
+        - Plan layihənin tələbləri, test strategiyası və risk analizi əsasında tərtib olunur.
+
+    c) Test Ssenarilərinin Hazırlanması (Test Case Development)
+        - Bu mərhələdə proqramın bütün funksiyalarını yoxlamaq üçün test ssenariləri yazılır.
+        - Əl ilə test və avtomatlaşdırılmış testlər fərqli şəkildə yazılır:
+            - Əl ilə test ssenariləri sadə izahlarla (spisok kimi) yazılır.
+            - Avtomatlaşdırılmış testlər üçün ayrıca kod yazılır.
+
+    d) Test Mühitinin Hazırlanması (Test Environment Setup)
+
+        - Test mühiti – proqramı yoxlamaq üçün lazım olan sistem və alətlərdir.
+
+        - Test planında hansı mühitin istifadə olunacağı əvvəlcədən müəyyən edilir.
+            - Lazım olan əməliyyat sistemləri və virtual maşınlar quraşdırılır.
+            - Test alətləri (məsələn, Selenium, Katalon Studio) işə salınır.
+            - Məlumat bazaları və digər komponentlər konfiqurasiya edilir.
+            - Əgər xüsusi icazələr və dəstək lazımdırsa, DevOps və sistem administratorlarına müraciət edilir.
+
+    e) Testlərin İcrası (Test Execution)
+        - Bu mərhələdə hazırlanmış test ssenariləri işlədilir.
+        - Testlər necə aparılır?
+            - Bütün testlər xüsusi test menecment sistemində qeyd olunur.
+            - Əgər test uğursuz alınırsa (faktiki nəticə gözlənilən nəticəyə uyğun gəlmirsə), bu səhv kimi qeyd edilir və təmir üçün proqramçılara göndərilir.
+            - Düzəldilmiş səhvlər yenidən yoxlanılır.
+
+    f) Test Dövrünün Bağlanması (Test Cycle Closure)
+        - Bu, testin son mərhələsidir.
+        - əticələr hazırlanır və hesabatlar müştəriyə təqdim edilir.
+        - Hesabatda nə olur?
+            - Testlərə nə qədər vaxt sərf edilib.
+            - Nə qədər səhv tapılıb və düzəldilib.
+            - Testlərin uğurlu keçmə faizləri.
+    
+        - Test komandası üçün də təhlil aparılır – hansı sahələrdə yaxşı işlənib, hansı sahələrdə inkişaf lazımdır.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+STLC və SDLC arasındakı fərq
+
+SDLC (Proqramın İnkişaf Dövrü)	                                        STLC (Proqramın Test Dövrü)
+
+Məqsəd – proqramı hazırlamaq və inkişaf etdirmək.----------------------Məqsəd – hazırlanmış proqramı yoxlamaq və səhvləri tapmaq.
+Layihənin funksionallığı və tələbləri toplanır.------------------------Tələblər yoxlanılır, test üçün uyğun olub-olmadığı müəyyən edilir.
+Kod yazılır və proqram inkişaf etdirilir.------------------------------Testlər aparılır, səhvlər düzəldilir və proqramın keyfiyyəti yoxlanılır.
+Müştəri üçün işlək məhsul hazırlanır.----------------------------------Müştəri üçün keyfiyyətli və səhvsiz məhsul təqdim edilir.

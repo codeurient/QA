@@ -1,0 +1,139 @@
+Test səviyyələri nədir?
+
+Test səviyyələri – proqram təminatının yoxlanılması üçün müxtəlif mərhələlərdən ibarət olan bir prosesdir. Hər səviyyə müəyyən bir hədəfə 
+xidmət edir və testlərin düzgün təşkil edilməsinə kömək edir.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Test səviyyələrinin əsas anlayışları:
+✅ Test səviyyələri – test fəaliyyətlərinin qruplaşdırıldığı və idarə edildiyi mərhələlərdir.
+✅ Test səviyyəsi – test prosesinin müəyyən bir mərhələdə tətbiq edilməsidir.
+✅ Test bazası – testlərin hazırlanması üçün istifadə olunan məlumat və sənədlər toplusudur.
+✅ Test obyekti – test edilməli olan proqram və ya sistem hissəsidir.
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1) Komponent testində istifadə olunan mənbələr (test bazası):
+📌 Detallı dizayn sənədləri
+📌 Kod və məlumat modelləri
+📌 Komponent spesifikasiyaları
+
+Test edilən obyektlər:
+✔️ Komponentlər və modullar
+✔️ Kod və məlumat strukturları
+✔️ Verilənlər bazası modulları
+
+Tipik səhvlər:
+🚨 Yanlış işləyən funksiyalar
+🚨 Məlumat axınında problemlər
+🚨 Kod və məntiq səhvləri
+
+🔹 Məsələn: Aşağıdakı funksiya bir ədədin kvadratını qaytarır. Bu funksiya test edilməlidir ki, düzgün işlədiyini təsdiqləyək:
+
+function square (number) {
+    return number * number;
+}
+
+Əgər return number + number; yazılsa, test prosesi bunun səhv olduğunu aşkarlayacaq.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+2) İntegrasiya testləri (Integration Testing)
+İntegrasiya testləri sistem daxilindəki komponentlərin bir-biri ilə necə işlədiyini yoxlayır. Yəni tək-tək yoxlanılan modulların bir yerdə 
+işləyib-işləmədiyini test edirik.
+
+İntegrasiya testlərinin səviyyələri:
+🔹 a) Komponentlərarası inteqrasiya testi (CIT - Component Integration Testing):
+📌 Eyni sistemdəki komponentlər arasında qarşılıqlı əlaqənin düzgün işlədiyini yoxlayır.
+
+🔹 b) Sistem inteqrasiya testi (SIT - System Integration Testing):
+📌 Tam sistemin fərqli alt sistemlərdən ibarət olduğu hallarda onların birlikdə düzgün işlədiyini yoxlayır.
+
+
+
+1. İntegrasiya testində istifadə olunan mənbələr (Test bazası):
+📌 Sistem və məhsulun dizaynı
+📌 İnterfeyslər və protokolların spesifikasiyası
+📌 Sistemin istifadə ssenariləri
+📌 Komponent və sistem səviyyəsində arxitektura
+📌 İş prosesləri və xarici interfeyslərin təsviri
+
+
+2. Test edilən obyektlər (Test obyektləri):
+✔️ Alt sistemlər (Subsystems)
+✔️ Verilənlər bazaları (Databases)
+✔️ İnterfeyslər (Interfaces)
+✔️ API-lər və mikroxidmətlər (APIs & Microservices)
+
+
+3. Tipik problemlər və uğursuzluqlar:
+🚨 Yanlış və ya əskik məlumatlar
+🚨 Yanlış ardıcıllıq və vaxtlama problemləri
+🚨 Uyğunsuz interfeyslər (iki sistem bir-biri ilə işləyə bilmir)
+🚨 Bağlantı xətaları və əlaqənin qırılması
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

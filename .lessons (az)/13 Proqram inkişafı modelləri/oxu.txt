@@ -1,0 +1,200 @@
+Proqram Təminatı İnkişaf Modelləri (Qısa Konspekt)
+
+Proqram Təminatı İnkişaf Modeli (SDM - Software Development Model) – proqramın hazırlanma prosesini sistemləşdirən və təşkil 
+edən bir yanaşmadır. Başqa sözlə, hansı işlər hansı ardıcıllıqla aparılmalıdır və bu prosesdə iştirakçılar necə qarşılıqlı əlaqədə 
+olmalıdır – bu modellər bunu müəyyən edir.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+1) Vodopad (Waterfall) modeli – mərhələli və ardıcıl modeldir. Hər mərhələ tam bitmədən, növbəti mərhələyə keçmək olmaz. (Məsələn, 
+tələblər tam yazılmadan kod yazılmır).
+
+
+
+Vodopad (Waterfall) Modeli – Sadə İzah
+🚀 Bu model köhnəlib və müasir proqramlaşdırmada demək olar ki, istifadə olunmur. Amma kosmik, hərbi, aviasiya, tibb və maliyyə sahələrində hələ də tətbiq edilir.
+
+
+💡 Xüsusiyyətləri:
+    - Bütün proses mərhələlərlə gedir və geri qayıtmaq mümkün deyil.
+    - Hər mərhələ bitəndən sonra növbəti mərhələyə keçilir.
+    - Əgər layihədə səhv olsa, əvvəldən başlamaq lazımdır.
+
+
+
+🛠 Niyə bu model artıq istifadə olunmur?
+Çünki müasir proqramlar elə bir şəkildə inkişaf edir ki, layihənin əvvəlindən sonuna qədər tam görmək lazımdır. Amma Vodopad modelində komanda 
+yalnız növbəti mərhələni görə bilir. Yəni, səhv edildikdə geri qayıdıb düzəltmək mümkün olmur. Müasir yanaşmalarda isə səhvləri düzəltmək 
+üçün layihənin istənilən mərhələsinə qayıtmaq mümkündür.
+
+Vodopad modeli ilə bağlı əsas çatışmazlıqlardan biridə odur ki, bu prosesdə istifadəçilərin iştirakı ya ümumiyyətlə nəzərdə tutulmur.
+
+Testləşdirmə baxımından isə bu modelin mənfi cəhəti ondan ibarətdir ki, testlər layihənin ortalarından başlayır və ən intensiv şəkildə yalnız 
+layihənin sonunda aparılır. Bu isə mümkün səhvlərin və problemlərin erkən aşkarlanmasına mane olur.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+2) V-model (V-şəkilli model) – Vodopad modelinin təkmilləşdirilmiş variantıdır, burada hər inkişaf mərhələsinin öz test mərhələsi var.
+
+
+Bu modelin üstünlüyü odur ki, testlər layihənin lap əvvəlindən başlayır. Bu da potensial problemləri erkən aşkarlamağa və onları həqiqi 
+problemlərə çevrilmədən həll etməyə imkan verir. Beləliklə, risklər azalır və layihənin keyfiyyəti artır.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+3) İterativ və İnkremental Model –  Bu model müasir proqram təminatı (software) hazırlama metodlarının əsasını təşkil edir. Adından da göründüyü 
+   kimi, bu modelin iki əsas xüsusiyyəti var:
+
+    a) İterativ model – proqram kiçik hissələrlə inkişaf edir və hər dəfə yenilənərək yaxşılaşır. layihənin mərhələləri dəfələrlə təkrarlanır, 
+       yəni eyni proseslər bir neçə dəfə həyata keçirilir.
+
+    b) İnkremental model – proqramın bəzi hissələri əvvəlcədən işlək vəziyyətdə olur və zamanla yeni funksiyalar əlavə olunur. Yəni, məhsul tədricən inkişaf 
+       etdirilir, yəni hər mərhələdə yeni funksiyalar əlavə olunur.
+
+
+Bu modeldə layihə kiçik hissələrə (iterasiyalara) bölünür. Hər iterasiya tələblərin yığılması, dizayn, kod yazılması, test edilməsi və s. kimi klassik 
+mərhələləri özündə ehtiva edir. Iterasiyanın sonunda məhsulun yeni funksiyalar əlavə olunmuş versiyası (build) hazırlanır.
+
+
+Üstünlükləri:
+✔ Böyük və mürəkkəb layihələrdə effektiv işləyir.
+✔ Komanda böyük olduqda və layihə uzun müddət davam etdikdə yaxşı nəticə verir.
+
+Çatışmazlıqları:
+✖ Çox vaxt və resurs tələb edir.
+✖ Sənədləşdirmə və idarəetmə çox olduğu üçün bəzən ağır və çətin ola bilər.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+4) Spiral model – risklərin idarə olunmasına fokuslanır, iterativ inkişaf prinsiplərinə əsaslanır, amma eyni zamanda layihənin 
+təhlükəsizliyini və stabil inkişafını təmin edir.
+
+
+
+Spiral model, iterativ-inkremental modelin xüsusi bir formasıdır, amma burada əsas diqqət risklərin idarə olunmasına verilir. 
+Yəni bu model layihənin inkişaf prosesində yarana biləcək problemləri öncədən görüb, onları həll etməyə kömək edir.
+
+
+Spiral modelin əsas mərhələləri:
+    🔹 Məqsədlərin, alternativlərin və məhdudiyyətlərin müəyyən edilməsi – Layihənin məqsədləri, mümkün variantlar və məhdudiyyətlər araşdırılır.
+    🔹 Risklərin təhlili və prototipləşdirmə – Mövcud risklər qiymətləndirilir və onların qarşısını almaq üçün prototiplər yaradılır.
+    🔹 Məhsulun hazırlanması – Layihənin müəyyən hissəsi hazırlanır və ilkin versiya ortaya çıxır.
+    🔹 Növbəti iterasiya üçün planlama – Layihənin növbəti mərhələsi üçün plan hazırlanır.
+
+
+Bu model böyük və mürəkkəb layihələr, xüsusilə çox dəyişkən tələbləri olan layihələrdə – məsələn, elmi tədqiqatlar, startaplar və 
+konseptual layihələr üçün idealdır, çünki:
+    ✅ Layihə boyu risklər daim yoxlanılır və idarə edilir.
+    ✅ Tələblər dəyişsə belə, layihə buna uyğunlaşdırıla bilir.
+    ✅ Hər iterasiya yeni və işlək bir versiya ortaya çıxarır.
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+5) Agile model (Çevik inkişaf modeli) –
+
+    a) Ən çox istifadə olunan modeldir.
+    b) İterativ və inkremental modellərə əsaslanır.
+    c) Əsas yanaşmalardan biri Scrum-dır – burada inkişaf sprintlər (qısa dövrlər) ilə idarə olunur, hər sprintin sonunda yeni versiya çıxır.
+
+
+Çevik model müxtəlif proqram təminatı hazırlama üsullarının birləşməsidir və Agile Manifesti adlanan əsas prinsiplərə əsaslanır. 
+Bu modeldə əsas diqqət sürətli və effektiv işlək məhsulun yaradılmasına yönəlib.
+
+Çevik modelin əsas prinsipləri:
+✅ İnsanlar və ünsiyyət proseslərdən və alətlərdən daha önəmlidir.
+✅ İşləyən məhsul geniş və ətraflı sənədləşmədən daha vacibdir.
+✅ Müştəri ilə əməkdaşlıq müqavilə şərtlərini razılaşdırmaqdan daha vacibdir.
+✅ Dəyişikliklərə hazır olmaq ilkin planı tam yerinə yetirməkdən daha önəmlidir.
+
+
+Çevik modelin üstünlükləri
+🚀 Sürətli və çevik inkişaf – Layihənin hissə-hissə hazırlanmasına və dəyişikliklərə uyğunlaşdırılmasına imkan yaradır.
+👨‍💻 Müştəri ilə sıx əməkdaşlıq – Müştərinin fikirləri layihə boyunca daim nəzərə alınır.
+🔄 Daimi təkmilləşmə – Proses iterativdir və hər mərhələdə məhsul daha yaxşı hala gətirilir.
+
+
+Çevik modelin çatışmazlıqları
+❌ Böyük layihələr üçün çətin tətbiq olunur, çünki idarə edilməsi çətinləşir.
+❌ Düzgün başa düşülmədikdə səhv tətbiq edilir, bu da uğursuz nəticələrə gətirib çıxara bilər.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
