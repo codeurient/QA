@@ -1,0 +1,310 @@
+Test səviyyələri nədir?
+
+Test səviyyələri – proqram təminatının yoxlanılması üçün müxtəlif mərhələlərdən ibarət olan bir prosesdir. Hər səviyyə müəyyən bir hədəfə 
+xidmət edir və testlərin düzgün təşkil edilməsinə kömək edir.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Test səviyyələrinin əsas anlayışları:
+✅ Test səviyyələri – test fəaliyyətlərinin qruplaşdırıldığı və idarə edildiyi mərhələlərdir.
+✅ Test səviyyəsi – test prosesinin müəyyən bir mərhələdə tətbiq edilməsidir.
+✅ Test bazası – testlərin hazırlanması üçün istifadə olunan məlumat və sənədlər toplusudur.
+✅ Test obyekti – test edilməli olan proqram və ya sistem hissəsidir.
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1) Komponent testində istifadə olunan mənbələr (test bazası):
+📌 Detallı dizayn sənədləri
+📌 Kod və məlumat modelləri
+📌 Komponent spesifikasiyaları
+
+Test edilən obyektlər:
+✔️ Komponentlər və modullar
+✔️ Kod və məlumat strukturları
+✔️ Verilənlər bazası modulları
+
+Tipik səhvlər:
+🚨 Yanlış işləyən funksiyalar
+🚨 Məlumat axınında problemlər
+🚨 Kod və məntiq səhvləri
+
+🔹 Məsələn: Aşağıdakı funksiya bir ədədin kvadratını qaytarır. Bu funksiya test edilməlidir ki, düzgün işlədiyini təsdiqləyək:
+
+function square (number) {
+    return number * number;
+}
+
+Əgər return number + number; yazılsa, test prosesi bunun səhv olduğunu aşkarlayacaq.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+2) İntegrasiya testləri (Integration Testing)
+İntegrasiya testləri sistem daxilindəki komponentlərin bir-biri ilə necə işlədiyini yoxlayır. Yəni tək-tək yoxlanılan modulların bir yerdə 
+işləyib-işləmədiyini test edirik.
+
+İntegrasiya testlərinin səviyyələri:
+🔹 a) Komponentlərarası inteqrasiya testi (CIT - Component Integration Testing):
+📌 Eyni sistemdəki komponentlər arasında qarşılıqlı əlaqənin düzgün işlədiyini yoxlayır.
+
+🔹 b) Sistem inteqrasiya testi (SIT - System Integration Testing):
+📌 Tam sistemin fərqli alt sistemlərdən ibarət olduğu hallarda onların birlikdə düzgün işlədiyini yoxlayır.
+
+
+
+1. İntegrasiya testində istifadə olunan mənbələr (Test bazası):
+📌 Sistem və məhsulun dizaynı
+📌 İnterfeyslər və protokolların spesifikasiyası
+📌 Sistemin istifadə ssenariləri
+📌 Komponent və sistem səviyyəsində arxitektura
+📌 İş prosesləri və xarici interfeyslərin təsviri
+
+
+2. Test edilən obyektlər (Test obyektləri):
+✔️ Alt sistemlər (Subsystems)
+✔️ Verilənlər bazaları (Databases)
+✔️ İnterfeyslər (Interfaces)
+✔️ API-lər və mikroxidmətlər (APIs & Microservices)
+
+
+3. Tipik problemlər və uğursuzluqlar:
+🚨 Yanlış və ya əskik məlumatlar
+🚨 Yanlış ardıcıllıq və vaxtlama problemləri
+🚨 Uyğunsuz interfeyslər (iki sistem bir-biri ilə işləyə bilmir)
+🚨 Bağlantı xətaları və əlaqənin qırılması
+
+
+
+
+4. İntegrasiya testinin üsulları:
+🔹 Aşağıdan yuxarıya test (Bottom-Up Testing)
+➡️ Əvvəlcə aşağı səviyyəli modullar (komponentlər) test edilir.
+➡️ Əgər yüksək səviyyəli modul hazır deyilsə, onu əvəz etmək üçün "stub" (zəif imitasiya) istifadə olunur.
+
+Məsələn:
+📌 Qeydiyyat -> 📌 Profil Yaradılması -> 📌 Təlimə giriş
+(Əgər Təlimə giriş modulu yoxdursa, onu əvəz edən stub istifadə olunur.)
+
+
+
+Stub (Zəif imitasiya) nədir?
+➡️ Stub aşağı səviyyəli modulun əvəzedicisidir.
+➡️ Əsasən "Aşağıdan yuxarıya test" (Bottom-Up Testing) zamanı istifadə olunur.
+➡️ Stub sadəcə qayıdan (return) nəticəni verir, amma əslində heç bir məntiqli funksionallığı olmur.
+
+🔹 Məsələn:
+Sənin "Təlimə giriş" modulun hələ hazır deyil, amma sən "Qeydiyyat" və "Profil Yaradılması" modullarını test edirsən.
+
+✅ Qeydiyyatdan keçirsən
+✅ Profilini yaradırsan
+❌ Amma təlimə giriş sistemi hələ işlək deyil
+
+➡️ Bu zaman stub yaratmaqla "Təlimə giriş uğurlu oldu" mesajını saxta şəkildə qaytara bilərsən.
+
+
+
+
+
+
+
+
+
+
+
+
+
+🔹 Yuxarıdan aşağıya test (Top-Down Testing)
+➡️ Əvvəlcə yüksək səviyyəli modullar test edilir.
+➡️ Aşağı səviyyəli modullar hazır deyilsə, onları əvəz etmək üçün "driver" (güclü imitasiya) istifadə olunur.
+
+
+
+
+Driver (Güclü imitasiya) nədir?
+➡️ Driver yüksək səviyyəli modulun əvəzedicisidir.
+➡️ Əsasən "Yuxarıdan aşağıya test" (Top-Down Testing) zamanı istifadə olunur.
+➡️ Driver aşağı səviyyəli modulun test edilməsini təmin etmək üçün yuxarı səviyyəli modulu imitasiya edir.
+
+🔹 Məsələn:
+Sənin "Qeydiyyat" modulu hələ hazır deyil, amma sən "Profil Yaradılması" və "Təlimə giriş" modullarını test edirsən.
+
+❌ Qeydiyyat yoxdur
+✅ Profil yaradırsan
+✅ Təlimə giriş edə bilirsən
+
+➡️ Bu zaman driver yaradaraq "Qeydiyyat uğurlu oldu" mesajını imitasiya edə bilərsən ki, digər modulları test edə biləsən.
+
+
+
+
+
+
+
+
+🔹 "Böyük Partlayış" Metodu (Big Bang Testing)
+➡️ Sistemin bütün modulları eyni anda birləşdirilib test edilir.
+➡️ Kiçik sistemlər üçün istifadə oluna bilər, amma böyük sistemlərdə problemlərə səbəb ola bilər.
+
+Məsələn:
+📌 Qeydiyyat -> 📌 Bütün sistem birlikdə test edilir
+📌 Giriş (Login) -> 📌 Bütün sistem birlikdə test edilir
+📌 Profil -> 📌 Bütün sistem birlikdə test edilir
+
+
+
+
+
+
+
+
+✅ Stub – aşağı səviyyəli modulu əvəz edir, sadəcə saxta cavab qaytarır.
+✅ Driver – yuxarı səviyyəli modulu əvəz edir, digər modulları çağırır.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+3) Sistem Testi (System Testing) nədir?
+Sistem testi — bütün sistemin tam olaraq yoxlanılması deməkdir. Burada əsas məqsəd sistemin istifadəçi tələblərinə uyğun olub-olmamasını yoxlamaqdır.
+
+
+1. Sistem Testinin Əsasları
+🔹 Testin əsası nədir? (Yəni, nəyə əsasən test edirik?)
+✅ Risk analiz hesabatları – Hansı problemlər yarana bilər?
+✅ İstifadə ssenariləri – İstifadəçi sistemdən necə istifadə edəcək?
+✅ Biznes tələbləri və istifadəçi hekayələri – İstifadəçinin ehtiyacları nələrdir?
+✅ Sistem davranış modelləri – Sistem hansı vəziyyətlərdə necə davranmalıdır?
+✅ Diaqramlar – Sistem necə işləyir?
+✅ Sistem və istifadəçi təlimatları – İstifadəçilər üçün yazılmış sənədlər.
+
+
+
+
+2. Sistem Testində Nə Test Olunur? (Yəni, nələri yoxlayırıq?)
+✅ Proqramlar (applications) – Məsələn, mobil və ya veb tətbiqlər.
+✅ Aparat və proqram sistemləri – Məsələn, kompüterin içindəki proqramlar və qurğular.
+✅ Test edilən sistemin özü – Tam şəkildə sistem test edilir.
+✅ Əməliyyat sistemləri – Windows, Linux, Android və s.
+✅ Sistem və məlumatların konfiqurasiyası – Sistemin və məlumatların düzgün qurulub-qurulmadığı yoxlanılır.
+
+
+
+
+3. Ən Tipik Xətalar və Problemlər (Yəni, ən çox rast gəlinən problemlər hansılardır?)
+❌ Səhv hesablamalar – Məsələn, kalkulyator tətbiqi düzgün hesablamır.
+❌ Yanlış və ya gözlənilməz davranış – Məsələn, sistem gözlənilmədən bağlanır.
+❌ Düzgün olmayan məlumat ötürülməsi – Məsələn, bir moduldakı məlumat digər modulda səhv görünür.
+(Məsələn, bir bank xidmətində əsas səhifədə 1800 AZN göstərir hesabda, ancaq pul köçürmə səhifəsinə daxil olduqda 200 AZN göstərir.)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+4) Qəbul testləri (Acceptance Testing) sistemin istifadəçilər tərəfindən qəbul edilib-edilmədiyini 
+yoxlamaq üçün aparılır. Bu testlər proqram təminatının real istifadəyə tam hazır olub-olmadığını müəyyən edir.
+
+
+Qəbul testlərinin növləri:
+
+1️⃣ İstifadəçi qəbul testi (User Acceptance Testing - UAT)
+Bu testdə sistemin real istifadəçilər üçün nə dərəcədə uyğun olduğu yoxlanılır. Test, proqramın gündəlik istifadə mühitində 
+işlək olub-olmadığını müəyyən etməyə kömək edir.
+
+2️⃣ İstismar testi (Operational Acceptance Testing - OAT)
+Burada sistemin işlək vəziyyətdə saxlanması və idarə edilməsi yoxlanılır. Adətən bu test IT mütəxəssisləri və sistem administratorları 
+tərəfindən keçirilir və proqramın iş mühitində necə davranacağını test edir.
+
+3️⃣ Müqaviləyə əsaslanan qəbul testi (Contract Acceptance Testing - CAT)
+Əgər sifarişçi ilə müqavilə bağlanıbsa və orada qəbul üçün konkret meyarlar qeyd olunubsa, sistemin həmin meyarlara uyğun olub-olmadığı yoxlanılır.
+
+4️⃣ Normativ qəbul testi (Regulatory Acceptance Testing - RAT)
+Sistem hər hansı hüquqi və ya təhlükəsizlik standartlarına uyğun olmalıdırsa, bu test keçirilir. Məsələn, bank və ya dövlət sistemləri 
+üçün müəyyən qanun və tələblərə uyğunluq yoxlanılır.
+
+5️⃣ Alfa test (Alpha Testing)
+Bu test proqramın yaradıldığı şirkətdə keçirilir. Lakin testləri şirkət işçiləri yox, potensial müştərilər və ya müstəqil testçilər aparır.
+
+6️⃣ Beta test (Beta Testing)
+Proqram real istifadəçilər tərəfindən onların öz iş mühitində yoxlanılır. İstifadəçilər test edərək öz rəy və təkliflərini bildirirlər ki, 
+final versiyada problemlər aradan qaldırılsın.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+5) Test Piramidası – proqram təminatının dinamik testlərinin müxtəlif səviyyələrə bölünməsini təsvir edən metaforadır. Bu yanaşma 
+hansı səviyyədə nə qədər test olmalı olduğunu başa düşməyə kömək edir. Əsas prinsip ondan ibarətdir ki, testlər test olunan 
+obyektin səviyyəsinə uyğun şəkildə aparılmalıdır. Daha yuxarı səviyyədə olan testlər artıq aşağı səviyyədə yoxlanılmış bütün 
+detalları (şərti məntiq, kənar halları və s.) əhatə etməməlidir.
+
+
+
+Piramidanın səviyyələri aşağıdakılardır:
+
+🔹 Unit Testing (Vahid Testlər) – Ən aşağı səviyyədədir və proqramın ayrıca funksiyalarını, metodlarını və modullarını test edir. 
+Bu testlər kodun kiçik hissələrini sınaqdan keçirir və səhvləri tez bir zamanda aşkar etməyə kömək edir.
+
+🔹 Integration Testing (İnteqrasiya Testləri) – Bir-biri ilə əlaqəli olan komponentlərin və modulların birlikdə düzgün 
+işləyib-işləmədiyini yoxlayır. Məsələn, bir proqramda istifadəçi məlumatlarının verilənlər bazasına düzgün göndərilib-göndərilmədiyini 
+test edir.
+
+🔹 System Testing (Sistem Testləri) – Bütün sistemi bir yerdə yoxlayır. Burada proqramın təkcə ayrı-ayrı hissələri deyil, 
+bütövlükdə necə işlədiyi test edilir.
+
+🔹 E2E (End-to-End Testing - Ucdan-uca Testlər) – İstifadəçi baxımından proqramın tam işləmə mexanizmini yoxlayır. Məsələn, 
+istifadəçinin qeydiyyatdan keçməsi, hesabına daxil olması, sifariş verməsi kimi real ssenariləri test edir.
+
+
+Test piramidasında aşağı səviyyəli testlər (Unit və Integration) daha çox olmalı, yuxarı səviyyəli testlər (System və E2E) isə 
+daha az olmalıdır. Çünki aşağı səviyyədəki testlər daha sürətli və effektivdir, yüksək səviyyəli testlər isə daha mürəkkəb və bahalıdır.
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

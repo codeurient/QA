@@ -1,0 +1,134 @@
+1️⃣ Avtomatlaşdırılmış testləşdirmə (Automated testing, Test automation) – Test prosesində bəzi tapşırıqların insan 
+iştirakı olmadan xüsusi alətlər və metodlarla avtomatik icra olunması.
+
+2️⃣ Alfa-testləşdirmə (Alpha testing) – Proqramın tərtibatçı şirkətin daxilində test edilməsi. Lakin bu testlər proqramı 
+hazırlayan komanda tərəfindən deyil, müştərilər, istifadəçilər və ya müstəqil testçilər tərəfindən aparılır.
+
+3️⃣ Test analiz (Test analysis) – Test şərtlərinin müəyyən edilməsi və testin əsasına uyğun olaraq yoxlama metodlarının hazırlanması prosesi.
+
+4️⃣ Beta-testləşdirmə (Beta testing) – Proqramın tərtibatçı şirkətdən kənarda, real mühitdə müştərilər və ya istifadəçilər tərəfindən sınaqdan keçirilməsi.
+
+5️⃣ Biznes tələbləri (Business requirements) – Proqramın yaradılma məqsədini və istifadəçilərə hansı faydanı gətirəcəyini müəyyən edən əsas tələblər.
+
+6️⃣ Validasiya (Validation) – Proqramın müştərinin və ya istifadəçilərin tələblərinə uyğun olub-olmadığını müəyyən etmək üçün aparılan yoxlama prosesi.
+
+7️⃣ Verifikasiya (Verification) – Proqramın texniki tələblərə və spesifikasiyalara uyğun hazırlanıb-hazırlanmadığını yoxlayan proses.
+
+8️⃣ Sərhəd şərtləri (Boundary condition) – Verilənlərin müəyyən bir həddə və ya məhdudiyyətlər daxilində yerləşdiyi vəziyyətlər.
+
+9️⃣ Defekt (Defect) – Proqramın gözlənilən nəticəyə uyğun işləməməsi və tələblərə cavab verməməsi nəticəsində ortaya çıxan səhv və ya problem.
+
+🔟 Dinamik testləşdirmə (Dynamic testing) – Proqram kodunun işlək vəziyyətdə olduğu zaman aparılan test prosesi.
+
+1️⃣1️⃣ Smoke test (Duman testi) – Əsas və ən vacib funksiyaların işlək olub-olmadığını yoxlayan ilkin test mərhələsi. Əgər bu testdə 
+uğursuzluq olarsa, proqramın digər hissələrini test etməyin mənası yoxdur.
+
+1️⃣2️⃣ Proqram təminatının həyat dövrü (Software Development Lifecycle – SDLC) – Proqramın yaradılması, inkişafı, istifadəsi və istismardan 
+çıxarılmasını əhatə edən bütün mərhələlər.
+
+1️⃣3️⃣ İnkremental inkişaf modeli (Incremental development model) – Proqramın funksionallığının tədricən genişləndirilməsi və inkişaf 
+etdirilməsi prinsipinə əsaslanan inkişaf modeli.
+
+1️⃣4️⃣ İnteqrasiya testləri (Integration testing) – Sistemdəki fərqli komponentlərin və ya modulların bir-biri ilə necə işlədiyini 
+yoxlamaq üçün aparılan test mərhələsi.
+
+1️⃣5️⃣ Tədqiqat testləşdirməsi (Exploratory testing) – Testçinin əvvəlcədən müəyyən olunmuş ssenarilərə əsasən proqramı yoxlaması, 
+lakin test zamanı yeni ssenarilərin əlavə edilməsi və sistemin daha dərindən araşdırılması.
+
+1️⃣6️⃣ İterativ inkişaf modeli (Iterative development model) – Proqramın təkrarlanan dövrlər (iterasiyalar) vasitəsilə 
+mərhələli şəkildə inkişaf etdirildiyi model.
+
+1️⃣7️⃣ Ekvivalentlik sinfi (Equivalence class) – Eyni cür işlənən və eyni nəticəyə gətirib çıxaran verilənlər toplusu.
+
+1️⃣8️⃣ Komponent testləşdirməsi (Component testing) – Sistem daxilindəki ayrıca aparat və ya proqram komponentlərinin test edilməsi mərhələsi.
+
+1️⃣9️⃣ Keyfiyyətə nəzarət (Quality Control – QC) – Komponent və ya sistemin keyfiyyətini qiymətləndirmək üçün aparılan fəaliyyətlər toplusu.
+
+2️⃣0️⃣ Kross-brauzer testləşdirmə (Cross-browser testing) – Proqramın müxtəlif veb-brauzerlərdə və onların fərqli 
+versiyalarında düzgün işlədiyini yoxlamaq.
+
+2️⃣1️⃣ Kross-platforma testləşdirmə (Cross-platform testing) – Proqramın müxtəlif əməliyyat sistemlərində işləməsinin uyğunluğunu yoxlamaq.
+
+2️⃣2️⃣ Modul testləşdirməsi / Unit testləşdirmə (Unit testing) – Proqramın ayrıca və müstəqil bir hissəsinin 
+(məsələn, bir funksiya, metod və ya sinif) test edilməsi.
+
+2️⃣3️⃣ Test toplusu (Test suite) – Müəyyən test ssenarilərindən və prosedurlarından ibarət testlər toplusu.
+
+2️⃣4️⃣ Yükləmə testləri (Load testing) – Proqramın müəyyən bir yük altında sabit işləyib-işləmədiyini və həddindən artıq yükə nə 
+dərəcədə dözümlü olduğunu yoxlayan testlər.
+
+2️⃣5️⃣ Neqativ testləşdirmə (Negative testing, Invalid testing) – Proqramın səhv və ya gözlənilməz girişlərə necə reaksiya verdiyini 
+yoxlamaq üçün aparılan testlər (məsələn, sıfıra bölmə, yanlış şifrə daxil etmə və s.).
+
+2️⃣6️⃣ Qeyri-funksional testləşdirmə (Non-functional testing) – Sistem və proqram təminatının performans, təhlükəsizlik və istifadə 
+rahatlığı kimi xüsusiyyətlərini yoxlayan testlər.
+
+2️⃣7️⃣ Normallaşdırma (Normalization) – Verilənlərin təkrarlanmasının qarşısını almaq və məlumatların bütövlüyünü artırmaq üçün 
+verilənlər bazasının optimallaşdırılması prosesi.
+
+2️⃣8️⃣ Qeyri-funksional tələblər (Non-functional requirements) – Sistemə aid olan, lakin birbaşa funksionallıqla bağlı olmayan 
+tələblər (məsələn, təhlükəsizlik, performans, genişlənəbilərlik və s.).
+
+2️⃣9️⃣ Keyfiyyətin təminatı (Quality Assurance – QA) – Proqramın keyfiyyət tələblərinə cavab verdiyini təmin etmək üçün 
+aparılan proses və tədbirlər toplusu.
+
+3️⃣0️⃣ Defekt hesabatı / Xəta hesabatı (Defect report, Bug report) – Sistemdə aşkar edilmiş bir xətanın təsviri, prioriteti və onun 
+düzəldilməsi üçün verilən məlumatları ehtiva edən sənəd.
+
+3️⃣1️⃣ Təsdiqləyici test (Re-testing, Retest, Təkrar testləşdirmə) – Düzəldilmiş defektin artıq təkrarlanmadığını yoxlamaq üçün aparılan testlər.
+
+3️⃣2️⃣ Müsbət testləşdirmə (Positive testing) – Proqramın yalnız düzgün giriş məlumatları və düzgün istifadə ssenariləri ilə test edilməsi.
+
+3️⃣3️⃣ İstifadəçi qəbul testləri (User Acceptance Testing – UAT) – Real istifadəçilər tərəfindən proqramın praktik istifadəyə yararlılığını yoxlayan testlər.
+
+3️⃣4️⃣ Cütləmə testləşdirməsi (Pairwise testing) – Fərqli parametrlərin mümkün kombinasiyalarını sınaqdan keçirmək üçün istifadə olunan test strategiyası.
+
+3️⃣5️⃣ Regressiya testləşdirməsi (Regression testing) – Proqramda edilən dəyişikliklərin başqa hissələrə mənfi təsir edib-etmədiyini yoxlamaq üçün aparılan testlər.
+
+3️⃣6️⃣ Əl ilə testləşdirmə (Manual testing) – Testlərin insan tərəfindən əl ilə, avtomatlaşdırma alətlərindən istifadə etmədən aparılması.
+
+3️⃣7️⃣ Sistem testləşdirməsi (System testing) – Proqramın tam şəkildə, bir bütöv sistem kimi test edilməsi.
+
+3️⃣8️⃣ Statik testləşdirmə (Static testing) – Proqramı işə salmadan aparılan testlər (məsələn, kod rəyindən keçirmə 
+və sənədlərin yoxlanılması).
+
+3️⃣9️⃣ Stres testləri (Stress testing) – Proqramın normadan xeyli artıq yüklənmə və resurs çatışmazlığı şəraitində necə 
+işlədiyini yoxlamaq üçün aparılan testlər.
+
+4️⃣0️⃣ Scrum – Çevik proqramlaşdırmada (Agile) istifadə olunan, komanda işini və dəyər yaratma prosesini 
+optimallaşdıran yüngül çərçivə (framework).
+
+4️⃣1️⃣ Təhlükəsizlik testləri (Security testing) – Proqramın icazəsiz girişlərə və kiberhücumlara qarşı dayanıqlılığını yoxlayan testlər.
+
+4️⃣2️⃣ Ağ qutu testləşdirməsi (White-box testing) – Proqramın daxili strukturu və məntiqi əsasında aparılan testlər.
+
+4️⃣3️⃣ Əlçatanlıq testləri (Accessibility testing, A11Y) – Məhdud imkanlı insanlar (məsələn, görmə və eşitmə problemləri 
+olan şəxslər) üçün proqramın istifadəyə uyğunluğunu yoxlayan testlər.
+
+4️⃣4️⃣ Beynəlmiləlləşdirmə testləri (Internationalization testing, i18n testing) – Proqramın müxtəlif dillərə və mədəni 
+xüsusiyyətlərə uyğunlaşmasını yoxlamaq üçün aparılan testlər.
+
+4️⃣5️⃣ Kritik yol testləri (Critical path testing) – İstifadəçilərin gündəlik fəaliyyətlərdə ən çox istifadə etdiyi 
+funksionallıqları yoxlamaq üçün aparılan testlər.
+
+4️⃣6️⃣ Lokallaşdırma testləri (Localization testing, l10n) – Proqramın müəyyən bir dilə, milli və mədəni 
+xüsusiyyətlərə uyğunluğunu yoxlamaq üçün aparılan testlər.
+
+4️⃣7️⃣ Performans testləri (Performance testing) – Proqramın müxtəlif yüklənmə səviyyələrində və xarici təsirlər 
+altında nə qədər sürətli işlədiyini araşdıran testlər.
+
+4️⃣8️⃣ İstifadə rahatlığı testləri (Usability testing) – Proqramın istifadəçilər üçün nə dərəcədə rahat, anlaşılan və cəlbedici olduğunu yoxlayan testlər.
+
+4️⃣9️⃣ Qara qutu testləşdirməsi (Black-box testing) – Proqramın daxili məntiqinə baxmadan, yalnız spesifikasiyasına əsaslanaraq aparılan testlər.
+
+5️⃣0️⃣ Test halı (Test case) – Müəyyən şərtlər, giriş məlumatları, icra addımları, gözlənilən nəticələr və son şərtləri ehtiva edən test ssenarisi.
+
+5️⃣1️⃣ Tələblər (Requirements) – Proqramın mütləq yerinə yetirməli olduğu kriteriyalar və şərtlər.
+
+5️⃣2️⃣ Test səviyyələri (Test levels) – Test fəaliyyətlərinin müəyyən qruplar şəklində təşkil edilib idarə olunması.
+
+5️⃣3️⃣ Funksional testlər (Functional testing) – Proqramın yerinə yetirməli olduğu funksiyaları yoxlamaq üçün aparılan testlər.
+
+5️⃣4️⃣ Funksional tələblər (Functional requirements) – Proqramın nə etməli olduğunu (məsələn, hesablama, yoxlama, emal və s.) müəyyən edən tələblər.
+
+5️⃣5️⃣ Çek-lists (Checklists) – Test, inkişaf, planlaşdırma və idarəetmə ilə bağlı fikirlərin siyahısı.
