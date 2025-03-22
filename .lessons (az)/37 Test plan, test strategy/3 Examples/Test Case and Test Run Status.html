@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <title>Test Run - Veb Tətbiq</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 30px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+    th { background-color: #f5f5f5; }
+    .pass { background-color: #d4edda; color: #155724; font-weight: bold; }
+    .fail { background-color: #f8d7da; color: #721c24; font-weight: bold; }
+    .blocked { background-color: #fff3cd; color: #856404; font-weight: bold; }
+    .skipped { background-color: #e2e3e5; color: #6c757d; font-weight: bold; }
+    .status-box { padding: 10px; background: #f0f0f0; border-left: 5px solid #007bff; margin-top: 20px; }
+  </style>
+</head>
+<body>
+
+  <h1>🧪 Test Run: Veb Tətbiq 1.1</h1>
+
+  <div class="status-box">
+    <strong>Test Run Status:</strong> ✅ Completed
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Test Case ID</th>
+        <th>Test Ssenarisi</th>
+        <th>Gözlənilən Nəticə</th>
+        <th>Real Nəticə</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>TC-001</td>
+        <td>Düzgün məlumatla sistemə giriş</td>
+        <td>Ana səhifəyə keçid</td>
+        <td>Ana səhifə açıldı</td>
+        <td class="pass">Pass</td>
+      </tr>
+      <tr>
+        <td>TC-002</td>
+        <td>Səhv parolla giriş</td>
+        <td>Xəbərdarlıq mesajı</td>
+        <td>Mesaj çıxmadı</td>
+        <td class="fail">Fail</td>
+      </tr>
+      <tr>
+        <td>TC-003</td>
+        <td>Qeydiyyat forması açılırmı</td>
+        <td>Qeydiyyat səhifəsi görünür</td>
+        <td>Qeydiyyat səhifəsi görünür</td>
+        <td class="pass">Pass</td>
+      </tr>
+      <tr>
+        <td>TC-004</td>
+        <td>“Parolu unutdum” linki işləyirmi?</td>
+        <td>Bərpa səhifəsinə keçid</td>
+        <td>Sayt səhv verir</td>
+        <td class="blocked">Blocked</td>
+      </tr>
+      <tr>
+        <td>TC-005</td>
+        <td>Profil səhifəsinin test edilməsi</td>
+        <td>Profil məlumatları görsənsin</td>
+        <td>-</td>
+        <td class="skipped">Skipped</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>

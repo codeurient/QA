@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <title>Low-level Test Case Nümunəsi</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f9fc;
+      padding: 20px;
+    }
+    h1 {
+      color: #8338ec;
+    }
+    .test-case {
+      background-color: #ffffff;
+      border-left: 5px solid #8338ec;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    .label {
+      font-weight: bold;
+      color: #3a0ca3;
+    }
+    .value {
+      margin-bottom: 15px;
+      padding-left: 10px;
+    }
+    ul {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>✅ Low-level Test Case Nümunəsi</h1>
+
+  <div class="test-case">
+    <div class="label">Test Case ID:</div>
+    <div class="value">TC-LOW-001</div>
+
+    <div class="label">Başlıq:</div>
+    <div class="value">İstifadəçinin düzgün məlumatlarla qeydiyyatdan keçməsi</div>
+
+    <div class="label">Əvvəlcədən tələb olunan şərtlər:</div>
+    <div class="value">İstifadəçi əvvəlcədən sistemə daxil olmayıb (logout vəziyyətindədir).</div>
+
+    <div class="label">Test Addımları:</div>
+    <div class="value">
+      <ul>
+        <li>1. Brauzerdə qeydiyyat səhifəsini aç</li>
+        <li>2. “Ad” sahəsinə <strong>Rauf</strong> yaz</li>
+        <li>3. “E-mail” sahəsinə <strong>rauf@mail.com</strong> yaz</li>
+        <li>4. “Parol” sahəsinə <strong>Test1234</strong> yaz</li>
+        <li>5. “Qeydiyyat” düyməsinə klik et</li>
+      </ul>
+    </div>
+
+    <div class="label">Daxil ediləcək məlumatlar:</div>
+    <div class="value">
+      Ad: Rauf<br>
+      E-mail: rauf@mail.com<br>
+      Parol: Test1234
+    </div>
+
+    <div class="label">Gözlənilən nəticə:</div>
+    <div class="value">
+      İstifadəçiyə “Uğurla qeydiyyatdan keçdiniz” mesajı göstərilməlidir və avtomatik sistemə daxil edilməlidir.
+    </div>
+
+    <div class="label">Test sonrası vəziyyət:</div>
+    <div class="value">
+      İstifadəçi sistemə daxil olmuş vəziyyətdə qalmalıdır. Yuxarıda “Çıxış et” seçimi görünməlidir.
+    </div>
+  </div>
+
+</body>
+</html>
