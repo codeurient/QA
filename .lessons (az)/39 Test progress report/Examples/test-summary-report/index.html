@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <title>Test Summary Report</title>
+  <script src="chart.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #f5f5f5;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    .section {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+    .go-status {
+      font-size: 18px;
+      font-weight: bold;
+      color: green;
+    }
+    .not-go-status {
+      font-size: 18px;
+      font-weight: bold;
+      color: red;
+    }
+    canvas {
+      max-width: 500px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📝 Test Summary Report</h1>
+
+  <div class="section">
+    <h2>🧾 PRODUCT DETAILS</h2>
+    <p><strong>Application:</strong> "Online Market Admin Panel"</p>
+    <p><strong>Testing Purpose:</strong> Regresiya testi + yeni checkout funksionallığının yoxlanışı</p>
+  </div>
+
+  <div class="section">
+    <h2>📆 SPRINT / DATE / BUILD</h2>
+    <p><strong>Sprint:</strong> Sprint 5</p>
+    <p><strong>Test Tarixi:</strong> 20-21 Mart 2025</p>
+    <p><strong>Build Versiyası:</strong> v1.5.3-beta</p>
+  </div>
+
+  <div class="section">
+    <h2>📊 SUMMARY</h2>
+    <p>Test nəticələrinə əsaslanaraq məhsulun **hazırkı vəziyyəti stabil** hesab olunur və buraxılışa **hazırdır**.</p>
+    <p class="go-status">✅ GO – Build DOD kriteriyalarını qarşılayır.</p>
+  </div>
+
+  <div class="section">
+    <h2>🖥️ ENVIRONMENT</h2>
+    <ul>
+      <li>Windows 10 + Chrome 122</li>
+      <li>Android 12 + Chrome</li>
+      <li>iOS 16 + Safari</li>
+      <li>PostgreSQL DB (test serveri)</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🧪 TEST APPROACH / WHAT WAS TESTED</h2>
+    <ul>
+      <li>Regresiya testləri – əsas səhifələr və checkout</li>
+      <li>Manual test + Exploratory test</li>
+      <li>Backend API-lərin yoxlanışı (Postman ilə)</li>
+      <li>UI testləri (responsive dizayn)</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>⏱️ TIME SPENT</h2>
+    <table>
+      <tr>
+        <th>Fəaliyyət</th>
+        <th>Zaman</th>
+      </tr>
+      <tr><td>Test mühitinin qurulması</td><td>30 dəq</td></tr>
+      <tr><td>Regresiya testləri</td><td>2 saat</td></tr>
+      <tr><td>Yeni funksiyaların yoxlanışı</td><td>1.5 saat</td></tr>
+      <tr><td>Bugların qeydiyyatı</td><td>30 dəq</td></tr>
+      <tr><td>Exploratory test</td><td>30 dəq</td></tr>
+    </table>
+  </div>
+
+  <div class="section">
+    <h2>📈 STATISTICS</h2>
+    <canvas id="coverageChart"></canvas>
+    <canvas id="severityChart"></canvas>
+  </div>
+
+  <div class="section">
+    <h2>🐞 BUGS</h2>
+    <ul>
+      <li><strong>#124:</strong> Checkout zamanı kart məlumatı səhv yazılanda səhv mesaj görünmür. (Severity: High)</li>
+      <li><strong>#128:</strong> Mobil cihazlarda "Add to cart" düyməsi üst-üstə düşür. (Severity: Medium)</li>
+      <li><strong>#130:</strong> API-də zaman-zaman 500 error gəlir. (Severity: Critical)</li>
+      <li><strong>#135:</strong> UI-də yazı fontu bəzi səhifələrdə fərqlidir. (Severity: Low)</li>
+    </ul>
+  </div>
+
+  <script>
+    const coverageCtx = document.getElementById('coverageChart');
+    new Chart(coverageCtx, {
+      type: 'bar',
+      data: {
+        labels: ['Login', 'Checkout', 'Product Page', 'Orders', 'Admin Panel'],
+        datasets: [{
+          label: 'Test Coverage (%)',
+          data: [100, 80, 90, 100, 70],
+          backgroundColor: 'rgba(54, 162, 235, 0.6)'
+        }]
+      },
+      options: {
+        responsive: true,
+        scales: {
+          y: {
+            beginAtZero: true,
+            max: 100
+          }
+        }
+      }
+    });
+
+    const severityCtx = document.getElementById('severityChart');
+    new Chart(severityCtx, {
+      type: 'pie',
+      data: {
+        labels: ['Critical', 'High', 'Medium', 'Low'],
+        datasets: [{
+          label: 'Bug Severity',
+          data: [1, 1, 1, 1],
+          backgroundColor: [
+            '#ff4d4f',
+            '#ff7a45',
+            '#ffa940',
+            '#bae637'
+          ]
+        }]
+      }
+    });
+  </script>
+
+</body>
+</html>
