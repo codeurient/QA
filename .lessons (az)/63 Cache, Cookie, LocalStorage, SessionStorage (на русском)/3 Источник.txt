@@ -1,0 +1,32 @@
+1) https://developer.mozilla.org/ru/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API  - Использование Web Storage API
+
+
+
+
+2) https://developer.mozilla.org/ru/docs/Web/HTTP/Guides/Cookies        - HTTP-куки
+
+
+
+
+3) https://developer.mozilla.org/ru/docs/Web/HTTP/Guides/Caching            - HTTP-кеширование
+
+
+
+
+4) https://developer.mozilla.org/ru/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web       - Веб-страницы, веб-сайты, веб серверы и поисковики
+
+
+
+
+5) https://habr.com/ru/articles/46374/              - Веб-сервисы в теории и на практике для начинающих
+
+
+
+
+6) https://aws.amazon.com/ru/what-is/web-application/               - Что такое интернет-приложение?
+
+
+
+
+
+7) https://ru.wikipedia.org/wiki/%D0%9A%D1%8D%D1%88                 - Кэш   
